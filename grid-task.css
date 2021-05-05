@@ -9,7 +9,7 @@ body {
 .background {
   height: 100%;
   width: 100%;
-  background-color: blue;
+  background-color: rgb(87, 50, 250);
 }
 
 .background-line {
@@ -23,8 +23,8 @@ body {
 
 .main {
   height: 100px;
-  width: 50%;
-  border: 1px solid red;
+  width: 70%;
+  /* border: 1px solid red; */
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -45,13 +45,17 @@ body {
 }
 
 .button {
-  margin-right: 50px;
+  margin-right: 25px;
   border: none;
   background-color: transparent;
 }
 
 .fa-sliders-h {
   color: white;
+}
+
+.fa-sliders-h:hover {
+  color: rgb(207, 206, 206);
 }
 
 .icon {
@@ -83,9 +87,68 @@ body {
 
 .content {
   height: 900px;
-  width: 50%;
-  border: 1px solid green;
+  width: 70%;
+  /* border: 1px solid green; */
   margin: 0 auto;
   z-index: 1;
   position: relative;
+  display: grid;
+  grid-template-rows: 3fr 2fr 3fr 3fr 2fr;
+}
+
+.content--image {
+  background-image: url(blue-marble.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.content--button {
+  background-color: cyan;
+  padding: 10px;
+}
+
+.content-name1 {
+  margin-bottom: 0;
+  color: rgb(87, 50, 250);
+}
+
+.content-name2 {
+  margin-top: 0;
+  color: rgb(87, 50, 250);
+}
+
+.freepik {
+  color: black;
+}
+
+.button-learn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 30px;
+  color: rgb(87, 50, 250);
+  border: none;
+}
+
+.button-learn:hover {
+  background-color: rgb(87, 50, 250);
+  color: white;
+}
+
+.content--image1 {
+  background-image: url(Server.png);
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+}
+
+.content--image2 {
+  background-image: url(pc.webp);
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+}
+
+.content--description {
+  background-color: rgb(185, 129, 238);
+  padding: 10px;
 }
