@@ -23,7 +23,7 @@ body {
 
 .main {
   height: 100px;
-  width: 70%;
+  width: 75%;
   /* border: 1px solid red; */
   margin: 0 auto;
   display: flex;
@@ -87,7 +87,8 @@ body {
 
 .content {
   height: 900px;
-  width: 70%;
+  width: 75%;
+  padding-bottom: 30px;
   /* border: 1px solid green; */
   margin: 0 auto;
   z-index: 1;
