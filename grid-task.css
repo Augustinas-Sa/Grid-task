@@ -2,7 +2,66 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0 auto;
+}
+
 .header {
-  height: 200px;
+  height: 100px;
   padding: 20px;
+  background-color: rgb(111, 39, 245);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name--logo {
+  text-decoration: none;
+  color: rgb(207, 206, 206);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  margin-right: 50px;
+  border: none;
+  background-color: transparent;
+}
+
+.fa-sliders-h {
+  color: white;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon1 {
+  background-color: rgb(46, 46, 167);
+  margin-right: 10px;
+}
+
+.icon2 {
+  background-color: rgb(134, 203, 226);
+  margin-right: 10px;
+}
+
+.icon3 {
+  background-color: rgb(228, 28, 145);
+}
+
+.fab {
+  color: white;
 }
